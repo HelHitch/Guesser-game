@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../sass/style.scss" />
+    <link rel="stylesheet" href="../css/style.min.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="main container-fluid">
+      <div class="row">
+        <div class="main--box col-4">
+          <div class="main--header--question--title text-center">Вопросы</div>
+          <div class="row">
+            <div class="main--question">
+              <div class="main--text text-center">
+                ${name}, выбери вопрос, ответ на который тебя интересует
+                ЗАМЕНИТЬ НА INNER TEXT
+              </div>
+
+              <a href="better.html"
+                ><div class="question" id="better">
+                  Когда всё станет лучше?
+                </div></a
+              >
+
+              <a href=""
+                ><div class="question" id="dollar">
+                  Увеличится ли курс доллара в ближайщий месяц?
+                </div></a
+              >
+
+              <a href=""
+                ><div class="question" id="relocate">
+                  Мне светит релокейт?
+                </div></a
+              >
+
+              <a href=""
+                ><div class="question" id="profession">
+                  Стоит ли учить новую профессию?
+                </div></a
+              >
+
+              <a href=""
+                ><div class="question" id="english">
+                  Понадобиться ли мне английский язык в будущем?
+                </div></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="overlay" class="overlay container-fluid">
+        <div class="row">
+          <div id="alert--wrapper" class="alert--wrapper col-3">
+            <!-- <div id="alert" class="overlay--alert">
+                    <h3>
+
+                    </h3>
+                </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
